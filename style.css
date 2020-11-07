@@ -1,9 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
 img {
     height: 250px;
 }
 
+section{
+    height: 100%;
+}
+
 .center-choice {
-    margin-top: 100px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,12 +36,12 @@ img {
 
 @keyframes example {
     0%   {background-color: red;}
-    15%  {background-color: orange;}
-    30%  {background-color: yellow;}
-    45% {background-color: limegreen;}
-    60% {background-color: cyan; transform: rotate(360deg);}
-    75%{background-color: purple;  }
-    100%{transform: scaleY(1.5); transform: scaleX(1.5); }
+    17%  {background-color: orange;}
+    32%  {background-color: yellow;}
+    47% {background-color: limegreen;}
+    62% {background-color: cyan; }
+    77%{background-color: purple;  }
+    100%{transform: rotate(360deg);}
   }
 
 
@@ -38,7 +49,7 @@ img {
 
 
 .battle{
-    height: 600px;
+    height: 50px;
     width: 800px;
     background-color: #7CFC00;
 }

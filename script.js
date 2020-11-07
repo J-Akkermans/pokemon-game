@@ -1,10 +1,3 @@
-// document.getElementById("player-1").src=charachters[0].img;
-
-
-
-
-
-
 function playerChoice(id) {
     console.log(id)
     switch (id) {
@@ -40,17 +33,16 @@ function moveToSecondScreen(){
     let begin = document.getElementById("deletpls");
     let mainDiv = document.getElementById("UwU");
     let myTimer = setInterval(7000)
-    mainDiv.classList.add("animation-gone-center")
+    begin.classList.add("animation-gone-center")
     setTimeout(function() {
         begin.remove()
-            
         createBattleGround()
     }, 7000); 
     
 }
 
 
-function createBattleGround(img){
+function createBattleGround(){
     
     let battleground = document.createElement("div");
     battleground.style.width = "800px";
@@ -67,3 +59,5 @@ function createrPlayer(x){
     document.getElementById("battleground").appendChild(player1);
     document.getElementById("player1").src = "img/" + x + ".png";
 }
+
+
