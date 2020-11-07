@@ -1,0 +1,34 @@
+img {
+    height: 250px;
+}
+
+.center-choice {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choice {
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px rgba(122, 72, 187, 0.589) solid;
+    background-color: white;
+
+}
+
+.animation-gone-center {
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    15%  {background-color: orange;}
+    30%  {background-color: yellow;}
+    45% {background-color: limegreen;}
+    60% {background-color: cyan; transform: rotate(360deg);}
+    75%{background-color: purple;  }
+    100%{transform: scaleY(1.5); transform: scaleX(1.5); }
+  }
