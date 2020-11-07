@@ -3,7 +3,7 @@ img {
 }
 
 .center-choice {
-    margin-top: 300px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,3 +32,15 @@ img {
     75%{background-color: purple;  }
     100%{transform: scaleY(1.5); transform: scaleX(1.5); }
   }
+
+
+
+
+
+.battle{
+    height: 600px;
+    width: 800px;
+    background-color: #7CFC00;
+}
+
+
